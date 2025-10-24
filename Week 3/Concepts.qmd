@@ -1,0 +1,17 @@
+# Large Languaje Models (LLM)
+
+- ML model
+- pedict the next word 
+- inputs:
+    - text (sequence)
+- output:
+    - text (next word)
+- Examples:
+    - Open AI ChatGPT (closed-source)
+    - Google´s Gemini (closed-source)
+    - Meta Llama (open-source)
+    - Deepseek (open-source)
+    - Qwen (open-source)
+
+## Sensitive Information
+- PII (Personally Identifiable Information)

@@ -1,0 +1,164 @@
+---
+title: "Natasha Velez"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    self-contained: true
+    page-layout: full
+  pdf:
+    documentclass: scrartcl
+    classoption: ["11pt"]
+    geometry: "margin=1in"
+    toc: false
+    pdf-engine: lualatex
+fontsize: 11pt
+page-layout: full
+---
+
+<style>
+/* Centrar título y ajustar tipografías */
+.quarto-title-block .title {
+  text-align: center;
+  font-weight: 800;
+}
+
+/* Bloque de contacto */
+.contact {
+  text-align: center;
+  margin-top: -8px;
+  margin-bottom: 20px;
+  font-size: 0.98rem;
+  color: #333;
+}
+.contact a { text-decoration: none; }
+
+/* Foto de perfil flotante a la derecha */
+.headshot {
+  float: right;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: -70px;   /* ajusta si lo prefieres más alto o bajo */
+  margin-left: 16px;
+  object-fit: cover;
+}
+
+/* Secciones compactas para caber en una página */
+section h2 {
+  font-size: 1.05rem;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 4px;
+}
+ul { margin-top: 6px; margin-bottom: 8px; }
+li { margin-bottom: 4px; }
+
+/* Dos columnas para experiencia y educación si el ancho lo permite */
+.grid-2 {
+  display: grid;
+  gap: 14px;
+}
+@media (min-width: 900px) {
+  .grid-2 { grid-template-columns: 1.35fr 1fr; }
+}
+
+/* Etiquetas de puestos/fechas */
+.role { font-weight: 600; }
+.meta { color: #555; font-size: 0.92rem; }
+
+/* Chips de habilidades */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.chip {
+  border: 1px solid #d7d7d7;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+/* Compactar márgenes generales */
+p { margin: 6px 0; }
+</style>
+
+<!-- Foto de perfil (pon tu imagen en assets/photo.jpg) -->
+<img src="assets/photo.jpg" alt="Natasha Velez headshot" class="headshot" />
+
+<!-- CONTACTO (editables) -->
+<div class="contact">
+Vancouver, BC &nbsp; | &nbsp; <a href="mailto:natashavelezg12@gmail.com">natashavelezg12@gmail.com</a> &nbsp; | &nbsp; 672-380-1824 &nbsp; | &nbsp;
+<img src="assets/linkedin.png" alt="LinkedIn" style="height:14px; position: relative; top:2px; margin-right:4px;" />
+<a href="https://www.linkedin.com/in/natasha-velez" target="_blank">linkedin.com/in/natasha-velez</a>
+</div>
+
+## Professional Summary
+Production Engineer specializing in Operations & Logistics and an MBA candidate at University Canada West. 5+ years in the textile industry spanning production, operations, inventory control, quality, and analytics. Strong track record improving processes and translating data into operational decisions using Excel and Power BI.
+
+## Core Skills
+<div class="chips">
+  <div class="chip">Process Improvement</div>
+  <div class="chip">Operations Management</div>
+  <div class="chip">Inventory & Quality</div>
+  <div class="chip">Data Analysis & Reporting</div>
+  <div class="chip">Project Coordination</div>
+  <div class="chip">Analytical Thinking</div>
+  <div class="chip">Power BI</div>
+  <div class="chip">Problem Solving</div>
+</div>
+
+## Key Accomplishments
+- Reduced production defects by **5%** via tighter quality controls and targeted training.
+- Cut fabric waste **12%** with Excel-based inventory tracking and raw-material optimization.
+- Led a **30-person** team as Head of Quality (socks division), consistently meeting quality standards and on-time delivery.
+
+<div class="grid-2">
+
+<section>
+
+## Professional Experience
+
+**Quality Supervisor – Socks Division** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">Jun 2023 – Jan 2024</span>  
+- Supervised socks production quality, aligning protocols to company standards.  
+- Coordinated and trained a 30-person team to improve procedural adherence and output consistency.  
+- Collaborated with production to correct deviations promptly and meet client specs and timelines.
+
+**Account Manager – Socks Product Development** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">May 2022 – Jun 2023</span>  
+- Main liaison between clients and production, translating requirements into technical specs.  
+- Managed end-to-end development cycles, achieving **95%** on-time order completion.  
+- Delivered progress updates and presentations that strengthened client relationships.
+
+**Product Development Specialist – Apparel & Seamless** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">Jul 2019 – May 2022</span>  
+- Coordinated development to ensure alignment with brand and technical standards.  
+- Reduced sample rework by **10%** through prototyping process improvements.  
+- Optimized supplier coordination, cutting lead times by **8%** and accelerating time-to-market.
+
+**Intern – Apparel Product Development** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">Jan 2019 – Jul 2019</span>  
+- Supported sample evaluations and technical documentation.  
+- Assisted design/production to align prototypes with client specifications.
+
+</section>
+
+<section>
+
+## Education
+**MBA (Master of Business Administration)** — *University Canada West, Canada*  
+<span class="meta">Expected May 2026</span>
+
+**Specialization in Operations & Logistics Management** — *Universidad EAFIT, Colombia*  
+<span class="meta">2021</span>
+
+**B.Sc. in Industrial (Production) Engineering** — *Universidad EAFIT, Colombia*  
+<span class="meta">2019</span>
+
+## Certifications & Training
+- **Advanced Excel Certificate** — Universidad EAFIT, Colombia (2018)
+
+</section>
+
+</div>
+
+<!-- Nota para mantenerlo en una página PDF: reduce bullets o márgenes si se pasa. -->

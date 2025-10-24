@@ -1,0 +1,151 @@
+---
+title: "Natasha Velez"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    self-contained: true
+    page-layout: full
+  pdf:
+    documentclass: scrartcl
+    geometry: "margin=1in"
+    pdf-engine: lualatex
+resources:
+  - assets/**
+execute:
+  dir: project
+fontsize: 11pt
+page-layout: full
+---
+
+<style>
+.quarto-title-block .title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+}
+.contact {
+  text-align: center;
+  margin-top: -6px;
+  margin-bottom: 22px;
+  font-size: 0.95rem;
+  color: #333;
+}
+.contact a { text-decoration: none; color: #0073b1; }
+.headshot {
+  float: right;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: -70px;
+  margin-left: 16px;
+  object-fit: cover;
+}
+section h2 {
+  font-size: 1.05rem;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 4px;
+}
+ul { margin-top: 6px; margin-bottom: 8px; }
+li { margin-bottom: 4px; }
+.grid-2 {
+  display: grid;
+  gap: 14px;
+}
+@media (min-width: 900px) {
+  .grid-2 { grid-template-columns: 1.35fr 1fr; }
+}
+.meta { color: #555; font-size: 0.9rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.chip {
+  border: 1px solid #d7d7d7;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+p { margin: 6px 0; }
+</style>
+
+<!-- Foto de perfil -->
+![](assets/photo.jpg){.headshot alt="Natasha Velez"}
+
+<!-- Contacto -->
+<div class="contact">
+Vancouver, BC &nbsp; | &nbsp;
+<a href="mailto:natashavelezg12@gmail.com">natashavelezg12@gmail.com</a> &nbsp; | &nbsp;
+672-380-1824 &nbsp; | &nbsp;
+![](assets/linkedin.png){alt="LinkedIn" style="height:15px;position:relative;top:2px;margin-right:4px"}
+<a href="https://www.linkedin.com/in/natasha-velez" target="_blank">linkedin.com/in/natasha-velez</a>
+</div>
+
+## Professional Summary
+Production Engineer specializing in Operations & Logistics and an MBA candidate at University Canada West. Over 5 years of experience in the textile industry leading initiatives across production, operations, inventory, and quality control. Proven track record improving processes, managing teams, and translating data insights into operational efficiency. Passionate about continuous improvement and technology-driven business transformation.
+
+## Core Skills
+<div class="chips">
+  <div class="chip">Process Improvement</div>
+  <div class="chip">Operations Management</div>
+  <div class="chip">Inventory & Quality</div>
+  <div class="chip">Data Analysis & Reporting</div>
+  <div class="chip">Project Coordination</div>
+  <div class="chip">Analytical Thinking</div>
+  <div class="chip">Power BI</div>
+  <div class="chip">Problem Solving</div>
+</div>
+
+## Key Achievements
+- Reduced production defects by **5%** through implementation of quality audits and team training.  
+- Cut fabric waste **12%** by designing Excel-based tracking tools and material optimization systems.  
+- Led a **30-person** team as Head of Quality, maintaining delivery schedules and compliance with client standards.
+
+<div class="grid-2">
+
+<section>
+
+## Professional Experience
+
+**Quality Supervisor – Socks Division** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">Jun 2023 – Jan 2024</span>  
+- Supervised production quality across multiple lines.  
+- Trained 30+ staff and ensured adherence to quality protocols.  
+- Coordinated with production teams to meet specifications and on-time deliveries.
+
+**Account Manager – Socks Product Development** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">May 2022 – Jun 2023</span>  
+- Served as main liaison between clients and production.  
+- Managed end-to-end development cycles with 95% on-time completion.  
+- Delivered client presentations and product updates.
+
+**Product Development Specialist – Apparel & Seamless** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">Jul 2019 – May 2022</span>  
+- Streamlined product development workflows.  
+- Reduced rework by 10% through prototyping improvements.  
+- Shortened lead times by 8% via supplier coordination.
+
+**Intern – Apparel Product Development** — *Crystal S.A.S · Medellín, Colombia*  
+<span class="meta">Jan 2019 – Jul 2019</span>  
+- Assisted in prototype testing and documentation.  
+- Supported technical evaluations for apparel design.
+
+</section>
+
+<section>
+
+## Education
+**MBA (Master of Business Administration)** — *University Canada West, Canada*  
+<span class="meta">Expected May 2026</span>
+
+**Specialization in Operations & Logistics Management** — *Universidad EAFIT, Colombia*  
+<span class="meta">2021</span>
+
+**B.Sc. in Production Engineering** — *Universidad EAFIT, Colombia*  
+<span class="meta">2019</span>
+
+## Certifications & Training
+- **Advanced Excel Certificate** — Universidad EAFIT (2018)
+
+</section>
+</div>
