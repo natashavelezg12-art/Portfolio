@@ -10,31 +10,74 @@ fontsize: 11pt
 ---
 
 <style>
+:root{ --pastel:#E8E6F2; }  /* color pastel neutro */
+
+/* ===== Layout general ===== */
 .page{display:grid;gap:22px}
-@media (min-width:980px){.page{grid-template-columns:320px 1fr;align-items:start}}
-.sidebar{border:1px solid #e6e6e6;border-radius:14px;padding:18px;background:#fff;position:sticky;top:18px}
-.sidebar .avatar{width:220px;height:220px;border-radius:50%;object-fit:cover;display:block;margin:6px auto 14px;border:1px solid #ddd}
+@media (min-width:980px){
+  .page{grid-template-columns:320px 1fr;align-items:start}
+}
+
+/* ===== Sidebar ===== */
+.sidebar{
+  border:1px solid #ddd;
+  border-radius:14px;
+  padding:18px;
+  background:var(--pastel);
+  position:sticky; top:18px;
+}
+.sidebar .avatar{
+  width:220px;height:220px;border-radius:50%;
+  object-fit:cover;display:block;margin:6px auto 14px;border:1px solid #cfcfe8
+}
 .sidebar .name{font-size:1.6rem;font-weight:700;margin:0 0 4px}
-.sidebar .handle{color:#666;margin-bottom:10px}
 .sidebar .bio{font-size:.98rem;margin-bottom:12px}
-.sidebar .pill{display:inline-block;border:1px solid #e0e0e0;border-radius:999px;padding:2px 10px;font-size:.86rem;margin-right:6px;margin-bottom:6px}
+.sidebar .pill{
+  display:inline-block;border:1px solid #cfcfe8;border-radius:999px;
+  padding:2px 10px;font-size:.86rem;margin-right:6px;margin-bottom:6px;background:#fff8
+}
 .sidebar a{text-decoration:none}
+
+/* ===== Main content ===== */
 .main h1.quarto-title{display:none}
-.main section h2{font-size:1.15rem;border-bottom:1px solid #e6e6e6;padding-bottom:6px;margin-top:18px}
-.role{font-weight:600}.meta{color:#555;font-size:.92rem}
-ul{margin-top:6px} li{margin-bottom:6px}
-.card{border:1px solid #eee;border-radius:12px;padding:14px 16px;margin-top:12px;background:#fff}
-.grid-2{display:grid;gap:16px}
-@media (min-width:980px){.grid-2{grid-template-columns:1.35fr 1fr}}
+
+.main section h2,
+.main section h3{
+  font-size:1.15rem;
+  border-bottom:1px solid #e6e6e6;
+  padding-bottom:4px;
+  margin-top:10px;
+  margin-bottom:4px;
+}
+
+.role{font-weight:600}
+.meta{color:#555;font-size:.92rem}
+ul{margin-top:4px}
+li{margin-bottom:4px}
+
+/* Sin recuadros */
+.card{border:none;background:transparent;padding:0;margin-top:10px;box-shadow:none}
+
+/* ===== Barras separadoras ===== */
+.sep{
+  height:6px;                 
+  background:var(--pastel);   
+  border-radius:999px;
+  margin-top:5px;             /* espacio arriba */
+  margin-bottom:5px;          /* espacio abajo */
+}
+
+/* 100% ancho (una sola columna) */
+.grid-2{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:980px){.grid-2{grid-template-columns:1fr}}
 </style>
 
 <div class="page">
 
 ::: {.sidebar}
-![Natasha Velez headshot](assets/photo.jpg){.avatar}
+![Natasha Velez](assets/photo.jpg){.avatar}
 
 <div class="name">Natasha Velez</div>
-<div class="handle">natashavelezg12-art</div>
 
 <div class="bio">
 Production Engineer focused on Operations & Logistics. MBA candidate @ University Canada West. I build clear processes and translate data into decisions.
@@ -57,7 +100,10 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 <section class="card">
 ### Professional Summary
 5+ years in textile manufacturing across production, operations, inventory control, quality and analytics. Track record improving processes and translating data into operational decisions using Excel and Power BI.
+
 </section>
+
+<div class="sep"></div>
 
 <section class="card">
 ### Key Accomplishments
@@ -66,8 +112,9 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 - Led a **30-person** team as Head of Quality (socks division), meeting quality standards and deadlines.
 </section>
 
-<div class="grid-2">
+<div class="sep"></div>
 
+<div class="grid-2">
 <section class="card">
 ### Professional Experience
 
@@ -92,7 +139,10 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 <span class="meta">Jan 2019 – Jul 2019</span>  
 - Supported sample evaluations and technical documentation.  
 - Aligned prototypes with client specifications.
+
 </section>
+
+<div class="sep"></div>
 
 <section class="card">
 ### Education
@@ -105,10 +155,12 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 **B.Sc. in Industrial (Production) Engineering — _Universidad EAFIT, Colombia_**  
 <span class="meta">2019</span>
 
-### Certifications & Training
-- **Advanced Excel Certificate** — Universidad EAFIT (2018)
-</section>
+<div class="sep"></div> <!-- barra con espacio igual antes y después -->
 
+### Certifications & Training
+- **Advanced Excel Certificate** — Universidad EAFIT 2018
+</section>
 </div> <!-- /grid-2 -->
+
 </div> <!-- /main -->
 </div> <!-- /page -->
