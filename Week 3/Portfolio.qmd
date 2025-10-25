@@ -10,66 +10,136 @@ fontsize: 11pt
 ---
 
 <style>
-:root{ --pastel:#E8E6F2; }  /* color pastel neutro */
+:root {
+  --pastel: #E8E6F2; /* color pastel neutro */
+}
 
-/* ===== Layout general ===== */
-.page{display:grid;gap:22px}
-@media (min-width:980px){
-  .page{grid-template-columns:320px 1fr;align-items:start}
+/* ===== Layout base ===== */
+.page {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  align-items: start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
 }
 
 /* ===== Sidebar ===== */
-.sidebar{
-  border:1px solid #ddd;
-  border-radius:14px;
-  padding:18px;
-  background:var(--pastel);
-  position:sticky; top:18px;
+.sidebar {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 20px;
+  background: var(--pastel);
+  position: sticky;
+  top: 18px;
 }
-.sidebar .avatar{
-  width:220px;height:220px;border-radius:50%;
-  object-fit:cover;display:block;margin:6px auto 14px;border:1px solid #cfcfe8
+.sidebar .avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 6px auto 14px;
+  border: 1px solid #cfcfe8;
 }
-.sidebar .name{font-size:1.6rem;font-weight:700;margin:0 0 4px}
-.sidebar .bio{font-size:.98rem;margin-bottom:12px}
-.sidebar .pill{
-  display:inline-block;border:1px solid #cfcfe8;border-radius:999px;
-  padding:2px 10px;font-size:.86rem;margin-right:6px;margin-bottom:6px;background:#fff8
+.sidebar .name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
 }
-.sidebar a{text-decoration:none}
-
-/* ===== Main content ===== */
-.main h1.quarto-title{display:none}
-
-.main section h2,
-.main section h3{
-  font-size:1.15rem;
-  border-bottom:1px solid #e6e6e6;
-  padding-bottom:4px;
-  margin-top:10px;
-  margin-bottom:4px;
+.sidebar .bio {
+  font-size: .96rem;
+  margin-bottom: 12px;
+  text-align: justify;
 }
-
-.role{font-weight:600}
-.meta{color:#555;font-size:.92rem}
-ul{margin-top:4px}
-li{margin-bottom:4px}
-
-/* Sin recuadros */
-.card{border:none;background:transparent;padding:0;margin-top:10px;box-shadow:none}
-
-/* ===== Barras separadoras ===== */
-.sep{
-  height:6px;                 
-  background:var(--pastel);   
-  border-radius:999px;
-  margin-top:5px;             /* espacio arriba */
-  margin-bottom:5px;          /* espacio abajo */
+.sidebar a {
+  text-decoration: none;
+  word-break: break-all;
+}
+.sidebar .pill {
+  display: inline-block;
+  border: 1px solid #cfcfe8;
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: .86rem;
+  margin: 4px 4px 6px 0;
+  background: #fff8;
 }
 
-/* 100% ancho (una sola columna) */
-.grid-2{display:grid;gap:12px;grid-template-columns:1fr}
-@media (min-width:980px){.grid-2{grid-template-columns:1fr}}
+/* ===== Main ===== */
+.main h1.quarto-title {display:none;}
+.main section h2, .main section h3 {
+  font-size: 1.15rem;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 4px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.card {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin-top: 10px;
+}
+.sep {
+  height: 6px;
+  background: var(--pastel);
+  border-radius: 999px;
+  margin: 10px 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 950px) {
+  .page {
+    grid-template-columns: 1fr;
+    
+  }
+  .sidebar {
+    position: relative;
+    top: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .sidebar .avatar {
+    width: 160px;
+    height: 160px;
+  }
+  .sidebar .bio {
+    text-align: center;
+  }
+  .sidebar .pill {
+    font-size: .9rem;
+    padding: 4px 12px;
+  }
+  .main {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .page {
+    padding: 10px;
+  }
+  .sidebar {
+    padding: 16px;
+    border-radius: 12px;
+  }
+  .sidebar .avatar {
+    width: 130px;
+    height: 130px;
+  }
+  .sidebar .name {
+    font-size: 1.3rem;
+  }
+  .main section h2 {
+    font-size: 1.05rem;
+  }
+}
 </style>
 
 <div class="page">
@@ -100,21 +170,19 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 <section class="card">
 ### Professional Summary
 5+ years in textile manufacturing across production, operations, inventory control, quality and analytics. Track record improving processes and translating data into operational decisions using Excel and Power BI.
-
 </section>
 
 <div class="sep"></div>
 
 <section class="card">
 ### Key Accomplishments
-- Reduced production defects by **5%** via tighter quality controls and targeted training.
-- Cut fabric waste **12%** with Excel-based inventory tracking and raw-material optimization.
+- Reduced production defects by **5%** via tighter quality controls and targeted training.  
+- Cut fabric waste **12%** with Excel-based inventory tracking and raw-material optimization.  
 - Led a **30-person** team as Head of Quality (socks division), meeting quality standards and deadlines.
 </section>
 
 <div class="sep"></div>
 
-<div class="grid-2">
 <section class="card">
 ### Professional Experience
 
@@ -139,7 +207,6 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 <span class="meta">Jan 2019 – Jul 2019</span>  
 - Supported sample evaluations and technical documentation.  
 - Aligned prototypes with client specifications.
-
 </section>
 
 <div class="sep"></div>
@@ -147,19 +214,19 @@ Production Engineer focused on Operations & Logistics. MBA candidate @ Universit
 <section class="card">
 ### Education
 **MBA — _University Canada West, Canada_**  
-<span class="meta">Expected May 2026</span>
+<span class="meta">Expected May 2026</span>  
 
 **Specialization in Operations & Logistics Management — _Universidad EAFIT, Colombia_**  
-<span class="meta">2021</span>
+<span class="meta">2021</span>  
 
 **B.Sc. in Industrial (Production) Engineering — _Universidad EAFIT, Colombia_**  
-<span class="meta">2019</span>
+<span class="meta">2019</span>  
 
-<div class="sep"></div> <!-- barra con espacio igual antes y después -->
+<div class="sep"></div>
 
 ### Certifications & Training
 - **Advanced Excel Certificate** — Universidad EAFIT 2018
 </section>
-</div> <!-- /grid-2 -->
+
 </div> <!-- /main -->
 </div> <!-- /page -->

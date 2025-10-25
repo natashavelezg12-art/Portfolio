@@ -2190,56 +2190,130 @@ vertical-align: -.125em;
 
 
 <style>
-:root{ --pastel:#E8E6F2; } 
-
-.page{display:grid;gap:22px}
-@media (min-width:980px){
-.page{grid-template-columns:320px 1fr;align-items:start}
+:root {
+--pastel: #E8E6F2; 
 }
 
-.sidebar{
-border:1px solid #ddd;
-border-radius:14px;
-padding:18px;
-background:var(--pastel);
-position:sticky; top:18px;
-}
-.sidebar .avatar{
-width:220px;height:220px;border-radius:50%;
-object-fit:cover;display:block;margin:6px auto 14px;border:1px solid #cfcfe8
-}
-.sidebar .name{font-size:1.6rem;font-weight:700;margin:0 0 4px}
-.sidebar .bio{font-size:.98rem;margin-bottom:12px}
-.sidebar .pill{
-display:inline-block;border:1px solid #cfcfe8;border-radius:999px;
-padding:2px 10px;font-size:.86rem;margin-right:6px;margin-bottom:6px;background:#fff8
-}
-.sidebar a{text-decoration:none}
-
-.main h1.quarto-title{display:none}
-.main section h2,
-.main section h3{
-font-size:1.15rem;
-border-bottom:1px solid #e6e6e6;
-padding-bottom:4px;
-margin-top:10px;
-margin-bottom:4px;
-}
-.role{font-weight:600}
-.meta{color:#555;font-size:.92rem}
-ul{margin-top:4px}
-li{margin-bottom:4px}
-
-.card{border:none;background:transparent;padding:0;margin-top:10px;box-shadow:none}
-
-.sep{
-height:6px; background:var(--pastel); border-radius:999px;
-margin-top:5px; 
-margin-bottom:5px; 
+.page {
+display: grid;
+grid-template-columns: 320px 1fr;
+gap: 24px;
+align-items: start;
+max-width: 1200px;
+margin: auto;
+padding: 20px;
 }
 
-.grid-2{display:grid;gap:12px;grid-template-columns:1fr}
-@media (min-width:980px){.grid-2{grid-template-columns:1fr}}
+.sidebar {
+border: 1px solid #ddd;
+border-radius: 14px;
+padding: 20px;
+background: var(--pastel);
+position: sticky;
+top: 18px;
+}
+.sidebar .avatar {
+width: 220px;
+height: 220px;
+border-radius: 50%;
+object-fit: cover;
+display: block;
+margin: 6px auto 14px;
+border: 1px solid #cfcfe8;
+}
+.sidebar .name {
+font-size: 1.6rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 4px;
+}
+.sidebar .bio {
+font-size: .96rem;
+margin-bottom: 12px;
+text-align: justify;
+}
+.sidebar a {
+text-decoration: none;
+word-break: break-all;
+}
+.sidebar .pill {
+display: inline-block;
+border: 1px solid #cfcfe8;
+border-radius: 999px;
+padding: 3px 12px;
+font-size: .86rem;
+margin: 4px 4px 6px 0;
+background: #fff8;
+}
+
+.main h1.quarto-title {display:none;}
+.main section h2, .main section h3 {
+font-size: 1.15rem;
+border-bottom: 1px solid #e6e6e6;
+padding-bottom: 4px;
+margin-top: 10px;
+margin-bottom: 4px;
+}
+.card {
+border: none;
+background: transparent;
+padding: 0;
+margin-top: 10px;
+}
+.sep {
+height: 6px;
+background: var(--pastel);
+border-radius: 999px;
+margin: 10px 0;
+}
+
+@media (max-width: 950px) {
+.page {
+grid-template-columns: 1fr;
+}
+.sidebar {
+position: relative;
+top: 0;
+text-align: center;
+margin-bottom: 15px;
+}
+.sidebar .avatar {
+width: 160px;
+height: 160px;
+}
+.sidebar .bio {
+text-align: center;
+}
+.sidebar .pill {
+font-size: .9rem;
+padding: 4px 12px;
+}
+.main {
+margin-top: 10px;
+}
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9rem;
+}
+.page {
+padding: 10px;
+}
+.sidebar {
+padding: 16px;
+border-radius: 12px;
+}
+.sidebar .avatar {
+width: 130px;
+height: 130px;
+}
+.sidebar .name {
+font-size: 1.3rem;
+}
+.main section h2 {
+font-size: 1.05rem;
+}
+}
 </style>
 <div class="page">
 <div class="sidebar">
@@ -2264,7 +2338,7 @@ Natasha Velez
 <section class="card">
 <section id="professional-summary" class="level3">
 <h3 class="anchored" data-anchor-id="professional-summary">Professional Summary</h3>
-<p>5+ years in textile manufacturing across production, operations, inventory control, quality and analytics. Track record improving processes and translating data into operational decisions using Excel and Power BI.</p>
+5+ years in textile manufacturing across production, operations, inventory control, quality and analytics. Track record improving processes and translating data into operational decisions using Excel and Power BI.
 </section>
 <div class="sep">
 
@@ -2274,16 +2348,18 @@ Natasha Velez
 <section id="key-accomplishments" class="level3">
 <h3 class="anchored" data-anchor-id="key-accomplishments">Key Accomplishments</h3>
 <ul>
-<li>Reduced production defects by <strong>5%</strong> via tighter quality controls and targeted training.</li>
-<li>Cut fabric waste <strong>12%</strong> with Excel-based inventory tracking and raw-material optimization.</li>
+<li>Reduced production defects by <strong>5%</strong> via tighter quality controls and targeted training.<br>
+</li>
+<li>Cut fabric waste <strong>12%</strong> with Excel-based inventory tracking and raw-material optimization.<br>
+</li>
 <li>Led a <strong>30-person</strong> team as Head of Quality (socks division), meeting quality standards and deadlines.</li>
 </ul>
 </section>
 <div class="sep">
 
 </div>
-<div class="grid-2">
 <section class="card">
+</section>
 <section id="professional-experience" class="level3">
 <h3 class="anchored" data-anchor-id="professional-experience">Professional Experience</h3>
 <p><strong>Quality Supervisor – Socks Division — <em>Crystal S.A.S · Medellín, Colombia</em></strong><br>
@@ -2300,10 +2376,10 @@ Natasha Velez
 <span class="meta">Jul 2019 – May 2022</span><br>
 - Reduced sample rework by <strong>10%</strong> through prototyping process improvements.<br>
 - Optimized supplier coordination, cutting lead times by <strong>8%</strong>.</p>
-<p><strong>Intern – Apparel Product Development — <em>Crystal S.A.S</em></strong><br>
+<strong>Intern – Apparel Product Development — <em>Crystal S.A.S</em></strong><br>
 <span class="meta">Jan 2019 – Jul 2019</span><br>
 - Supported sample evaluations and technical documentation.<br>
-- Aligned prototypes with client specifications.</p>
+- Aligned prototypes with client specifications.
 </section>
 <div class="sep">
 
@@ -2321,7 +2397,6 @@ Natasha Velez
 <div class="sep">
 
 </div>
-<p><!-- barra con espacio igual antes y después --></p>
 </section>
 <section id="certifications-training" class="level3">
 <h3 class="anchored" data-anchor-id="certifications-training">Certifications &amp; Training</h3>
@@ -2329,9 +2404,6 @@ Natasha Velez
 <li><strong>Advanced Excel Certificate</strong> — Universidad EAFIT 2018</li>
 </ul>
 </section>
-</section>
-</div>
-<p><!-- /grid-2 --></p>
 </section>
 </div>
 <p><!-- /main --></p>
