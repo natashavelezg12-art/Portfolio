@@ -1,12 +1,18 @@
 /* =========================================================
    GLOBAL LAYOUT
    ========================================================= */
-h1{
+
+
+#quarto-document-content h1.title,
+#quarto-document-content h1.quarto-title {
   color: #1F2C82 !important;
   font-size: 50px;
   font-weight: bolder;
+  max-width: 1120px;      /* mismo ancho que tu contenido */
+  margin: 48px auto 24px; /* centrado como el contenido, misma separación arriba/abajo */
+  padding: 0;             
+  text-align: left;       /* evita centrados raros en algunas páginas */
 }
-
   body {
   background: #F5F6FA;
   color: #1F2937;
@@ -16,14 +22,21 @@ h1{
   margin: 0;
   padding: 0;
 }
-
-main.content {
-  color: 1F2C82;
-  max-width: 1100px;
-  margin: auto;
-  padding: 22px;
+.download-btn {
+  display: inline-block;
+  background-color: #1F3B64;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
+  margin-bottom: 18px;
 }
 
+.download-btn:hover {
+  background-color: #16294b;
+}
 
 /* =========================================================
    NAVBAR (Quarto default tweaked)

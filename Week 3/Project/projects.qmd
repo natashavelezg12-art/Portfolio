@@ -2,7 +2,6 @@
 title: "Projects"
 ---
 
-<main class="content">
 
 <div class="n-card">
 <p class="n-muted projects-intro">

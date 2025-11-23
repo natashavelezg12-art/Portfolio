@@ -2,8 +2,6 @@
 title: "Skills"
 ---
 
-<main class="content">
-
 <div class="n-card">
 <p class="n-muted">
 Overview of technical, business and interpersonal skills, along with key training.
@@ -42,8 +40,5 @@ Overview of technical, business and interpersonal skills, along with key trainin
 • Advanced Excel Certificate – Universidad EAFIT (2018)<br>
 • Additional workshops in operations, logistics and analytics (UCW and prior roles).
 </div>
+
 </div>
-
-
-
-</main>

@@ -1,9 +1,9 @@
 ---
 title: "Resume"
 ---
-
-<main class="content">
-
+<a href="assets/resume.pdf" download class="download-btn">
+  📄 Download Resume (PDF)
+</a>
 <div class="resume-header">
 <p class="n-muted" style="margin-top:4px;">
 Summary of professional experience, education and key achievements.
@@ -101,4 +101,3 @@ Focus on Operations Management, Business Analytics, AI in Business and Leadershi
 
 </div>
 
-</main>

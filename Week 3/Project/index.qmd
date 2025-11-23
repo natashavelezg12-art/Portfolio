@@ -1,9 +1,6 @@
 ---
 title: "Home"
 ---
-
-<main class="content">
-
 <div class="home-hero n-card">
 <div>
 <img src="assets/photo.jpg" alt="Natasha Vélez" class="home-photo">
@@ -80,4 +77,3 @@ communicating complex information in a clear and practical way.
 </div>
 </div>
 
-</main>

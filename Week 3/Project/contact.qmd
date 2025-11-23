@@ -2,7 +2,6 @@
 title: "Contact me"
 ---
 
-<main class="content">
 <div class="n-card">
 
 <div class="n-card contact-card" style="margin-top:18px;">
