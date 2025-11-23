@@ -1,0 +1,125 @@
+---
+title: "MBA Student Portfolio Report"
+author: "Natasha Vélez"
+course: "BUSI 654 - Application of AI in Business"
+professor: "Dr. Davood Wadi"
+affiliation: "MBA Program, University Canada West"
+date: "October 26, 2025"
+output:
+  pdf:
+    toc: false
+    number-sections: false
+    keep-tex: true
+fontsize: 12pt
+documentclass: apa7
+classoption:
+  - stu
+  - man
+geometry: margin=1in
+---
+
+# 
+# 
+# 
+# 
+# 
+# 
+
+<div style="text-align:center; line-height:1.6;">
+
+**MBA Student Portfolio**  
+**Natasha Vélez**  
+*University Canada West – Vancouver, BC*  
+
+**BUSI 654: Application of AI in Business**  
+Instructor: *Dr. Davood Wadi*  
+
+</div>
+
+\newpage  <!-- SALTO DE PÁGINA MANUAL -->
+
+# Appendix
+
+**Prompt used:**  
+Create an outline and sample text for a one-page MBA student portfolio, based on the attached resume.
+
+---
+
+## Draft / Outline
+
+### MBA Student Portfolio – Outline
+
+**Header / Contact Information**  
+Include your name, MBA program, contact details, and LinkedIn.
+
+**Professional Summary**  
+A short paragraph highlighting your education, industry background, and goals in business analytics or operations management.
+
+**Core Competencies**  
+A concise list or table of your strongest analytical, technical, and management skills.
+
+**Key Projects / Achievements**  
+Showcase 2–3 quantifiable professional or academic accomplishments (process improvements, analytics projects, leadership impact).
+
+**Academic Profile**  
+Summarize your MBA program focus and relevant coursework (e.g., data analytics, operations strategy, business intelligence).
+
+**Career Goals**  
+State how you aim to leverage your MBA toward your future career in analytics or operations.
+
+---
+
+## Sample One-Page MBA Portfolio Text
+
+**Natasha Vélez**  
+MBA Candidate | University Canada West, Vancouver, BC  
+📧 natashavelezg12@gmail.com | 📞 672-380-1824  
+🔗 linkedin.com/in/natasha-velez
+
+---
+
+### Professional Summary
+
+Production Engineer specializing in Operations and Logistics Management, currently pursuing an MBA at University Canada West. Brings over five years of experience in the textile industry managing production, quality, and product development operations. Skilled in process improvement, data analytics, and Power BI, with a strong record of optimizing performance, reducing waste, and leading high-performing teams. Currently focusing on applying data-driven insights to enhance operational efficiency and strategic decision-making.
+
+---
+
+### Core Competencies
+
+Process Optimization | Business Analytics | Inventory & Quality Management | Project Coordination |  
+Power BI & Advanced Excel | Data Visualization | Problem Solving | Leadership & Training
+
+---
+
+### Key Accomplishments
+
+- Reduced production defects by 5% through enhanced quality controls and targeted staff training.  
+- Cut raw material waste by 12% using Excel-based inventory optimization tools.  
+- Led a 30-person team in the socks division, ensuring consistent quality and on-time delivery.  
+- Improved supplier coordination and reduced material lead times by 8% through process streamlining.
+
+---
+
+### Academic Profile
+
+**Master of Business Administration (MBA)** – University Canada West, Canada *(Expected May 2026)*  
+Relevant coursework: Data-Driven Decision Making, Operations Strategy, Business Analytics, and Strategic Management.  
+
+**Specialization in Operations and Logistics Management** – Universidad EAFIT, Colombia (2021)  
+**B.Sc. in Industrial Engineering** – Universidad EAFIT, Colombia (2019)
+
+---
+
+### Career Objective
+
+To integrate analytical tools and operational strategy to support business transformation and efficiency within global manufacturing or supply chain organizations. Passionate about combining technical expertise and business insight to drive data-backed decisions that create measurable impact.
+
+---
+
+## Commentary
+
+In this updated version, several design improvements were made to enhance the layout and presentation of the portfolio.  
+A LinkedIn logo was added beside the contact information to make the header more visually appealing and professional.  
+A personal photo was included to add a human touch and strengthen personal branding.  
+Additionally, pastel colors were applied for a clean and modern aesthetic, and the page was divided into two columns: the left column contains contact details, a short overview, and skills, while the right column presents professional experience and education.  
+These adjustments help achieve a better balance between readability and design, making the document look both professional and distinctive.

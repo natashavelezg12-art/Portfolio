@@ -1,0 +1,248 @@
+---
+title: "Natasha Velez"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    self-contained: true
+    page-layout: full
+fontsize: 11pt
+---
+
+<style>
+:root {
+  --pastel: #E8E6F2;
+}
+
+/* ===== Layout base ===== */
+.page {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  align-items: start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 20px;
+  background: var(--pastel);
+  position: sticky;
+  top: 18px;
+}
+.sidebar .avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 6px auto 14px;
+  border: 1px solid #cfcfe8;
+}
+.sidebar .name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.sidebar .bio {
+  font-size: .96rem;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.sidebar a {
+  text-decoration: none;
+  word-break: break-all;
+}
+
+/* pills */
+.sidebar .pill {
+  display: inline-block;
+  border: 1px solid #cfcfe8;
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: .86rem;
+  margin: 4px 4px 6px 0;
+  background: #fff8;
+}
+
+/* ===== Main ===== */
+.main h1.quarto-title {display:none;}
+.main section h2, .main section h3 {
+  font-size: 1.15rem;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 4px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.card {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin-top: 10px;
+}
+.sep {
+  height: 6px;
+  background: var(--pastel);
+  border-radius: 999px;
+  margin: 10px 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 950px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    position: relative;
+    top: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .sidebar .avatar {
+    width: 160px;
+    height: 160px;
+  }
+  .sidebar .bio {
+    text-align: center;
+  }
+  .sidebar .pill {
+    font-size: .9rem;
+    padding: 4px 12px;
+  }
+  .main {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .page {
+    padding: 10px;
+  }
+  .sidebar {
+    padding: 16px;
+    border-radius: 12px;
+  }
+  .sidebar .avatar {
+    width: 130px;
+    height: 130px;
+  }
+  .sidebar .name {
+    font-size: 1.3rem;
+  }
+  .main section h2 {
+    font-size: 1.05rem;
+  }
+}
+</style>
+
+<div class="page">
+
+<!-- ================== SIDEBAR ================== -->
+::: {.sidebar}
+
+![Natasha Velez](assets/photo.jpg){.avatar}
+
+<div class="name">Natasha Velez</div>
+
+<div class="bio">
+Production Engineer focused on Operations & Logistics. MBA candidate @ University Canada West. I build clear processes and translate data into decisions.
+</div>
+
+<!-- ====== 4 BOTONES DE NAVEGACIÓN ====== -->
+[Home](index.html){.btn .btn-primary .btn-sm style="width:100%; margin-bottom:8px;"}
+
+[Resume](resume.html){.btn .btn-outline-primary .btn-sm style="width:100%; margin-bottom:8px;"}
+
+[Projects](projects.html){.btn .btn-outline-primary .btn-sm style="width:100%; margin-bottom:8px;"}
+
+[Contact](contact.html){.btn .btn-outline-primary .btn-sm style="width:100%;"}
+
+<br>
+
+**📍 Vancouver, BC**  
+**✉️** <natashavelezg12@gmail.com>  
+![LinkedIn](assets/linkedin.png){style="height:14px; position:relative; top:2px; margin-right:4px;"} [linkedin.com/in/natasha-velez](https://www.linkedin.com/in/natasha-velez)
+
+<span class="pill">Operations</span>
+<span class="pill">Logistics</span>
+<span class="pill">Quality</span>
+<span class="pill">Inventory</span>
+<span class="pill">Excel</span>
+<span class="pill">Power BI</span>
+
+:::
+
+<!-- ================== MAIN CONTENT ================== -->
+<div class="main">
+
+<section class="card">
+### Professional Summary
+5+ years in textile manufacturing across production, operations, inventory control, quality and analytics. Track record improving processes and translating data into operational decisions using Excel and Power BI.
+</section>
+
+<div class="sep"></div>
+
+<section class="card">
+### Key Accomplishments
+- Reduced production defects by **5%** via tighter quality controls and targeted training.  
+- Cut fabric waste **12%** with Excel-based inventory tracking and raw-material optimization.  
+- Led a **30-person** team as Head of Quality (socks division), meeting quality standards and deadlines.
+</section>
+
+<div class="sep"></div>
+
+<section class="card">
+### Professional Experience
+
+**Quality Supervisor – Socks Division — _Crystal S.A.S · Medellín, Colombia_**  
+<span class="meta">Jun 2023 – Jan 2024</span>  
+- Supervised socks production quality aligned to company standards.  
+- Coordinated & trained a 30-person team to improve adherence and output consistency.  
+- Collaborated with production to correct deviations and meet client specs and timelines.
+
+**Account Manager – Socks Product Development — _Crystal S.A.S · Medellín, Colombia_**  
+<span class="meta">May 2022 – Jun 2023</span>  
+- Main liaison between clients and production, translating requirements into technical specs.  
+- Managed end-to-end development cycles; achieved **95%** on-time completion.  
+- Delivered progress updates that strengthened client relationships.
+
+**Product Development Specialist – Apparel & Seamless — _Crystal S.S._**  
+<span class="meta">Jul 2019 – May 2022</span>  
+- Reduced sample rework by **10%** through prototyping process improvements.  
+- Optimized supplier coordination, cutting lead times by **8%**.
+
+**Intern – Apparel Product Development — _Crystal S.A.S_**  
+<span class="meta">Jan 2019 – Jul 2019</span>  
+- Supported sample evaluations and technical documentation.  
+- Aligned prototypes with client specifications.
+</section>
+
+<div class="sep"></div>
+
+<section class="card">
+### Education
+**MBA — _University Canada West, Canada_**  
+<span class="meta">Expected May 2026</span>  
+
+**Specialization in Operations & Logistics Management — _Universidad EAFIT, Colombia_**  
+<span class="meta">2021</span>  
+
+**B.Sc. in Industrial (Production) Engineering — _Universidad EAFIT, Colombia_**  
+<span class="meta">2019</span>  
+
+<div class="sep"></div>
+
+### Certifications & Training
+- **Advanced Excel Certificate** — Universidad EAFIT 2018
+</section>
+
+</div> <!-- /main -->
+</div> <!-- /page -->
