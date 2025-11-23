@@ -20,6 +20,9 @@ Healthy Foods Company Transformation Case
 Designed a change management approach and operating model for a healthy food company moving
 towards a digital-first, data-driven strategy.
 </p>
+<div>
+<img src="assets/graph1.png" alt="Graph 1" class="home-photo">
+</div>
 <div class="skills-list">
 <span class="n-pill">Change management</span>
 <span class="n-pill">Process mapping</span>
@@ -36,6 +39,9 @@ LLM Evaluation for Supply Chain Decisions
 Compared four large language models and human answers for supply-chain related questions,
 assessing accuracy, reasoning and ethical considerations.
 </p>
+<div>
+<img src="assets/graph2.png" alt="Graph 2" class="home-photo">
+</div>
 <div class="skills-list">
 <span class="n-pill">AI &amp; LLMs</span>
 <span class="n-pill">Survey design</span>
@@ -52,6 +58,9 @@ Sales Forecasting for Retail Business
 Built Excel-based forecasting models for a fictional apparel retailer to support inventory and
 staffing decisions.
 </p>
+<div>
+<img src="assets/graph3.png" alt="Graph 3" class="home-photo">
+</div>
 <div class="skills-list">
 <span class="n-pill">Excel</span>
 <span class="n-pill">Time series</span>
