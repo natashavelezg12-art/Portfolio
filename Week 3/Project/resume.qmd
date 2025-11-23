@@ -1,0 +1,104 @@
+---
+title: "Resume"
+---
+
+<main class="content">
+
+<div class="resume-header">
+<p class="n-muted" style="margin-top:4px;">
+Summary of professional experience, education and key achievements.
+</p>
+</div>
+
+<div class="resume-two-col">
+
+<div class="n-card">
+<div class="n-section-title">Experience</div>
+
+<div class="resume-entry">
+<div class="resume-role">Retail Associate · Mi Tierra Latina</div>
+<div class="resume-meta">Vancouver, Canada · 2024 – Present</div>
+<ul class="n-muted" style="margin-top:4px;">
+<li>Supports store operations, merchandising and customer service in a multicultural environment.</li>
+<li>Handles inventory, replenishment and POS transactions.</li>
+</ul>
+</div>
+
+<div class="resume-entry">
+<div class="resume-role">Maintenance Technician</div>
+<div class="resume-meta">Armenia, Colombia · 2020 – 2024</div>
+<ul class="n-muted" style="margin-top:4px;">
+<li>Installed and maintained production machinery, ensuring availability and safety.</li>
+<li>Participated in plant relocation and process optimization projects.</li>
+</ul>
+</div>
+
+<div class="resume-entry">
+<div class="resume-role">Sales Associate · Polo Club</div>
+<div class="resume-meta">Colombia · 2 years</div>
+<ul class="n-muted" style="margin-top:4px;">
+<li>Delivered customer service, visual merchandising and sales support.</li>
+</ul>
+</div>
+
+<div class="resume-entry">
+<div class="resume-role">Customer Service Agent · Baby Fresh</div>
+<div class="resume-meta">Colombia · 1 year</div>
+<ul class="n-muted" style="margin-top:4px;">
+<li>Handled customer inquiries and after-sales support.</li>
+</ul>
+</div>
+
+<div class="resume-entry">
+<div class="resume-role">Intern · UNE EPM Telecomunicaciones</div>
+<div class="resume-meta">Medellín, Colombia · 2014</div>
+<ul class="n-muted" style="margin-top:4px;">
+<li>Supported network configuration, cabling and connectivity checks.</li>
+</ul>
+</div>
+</div>
+
+<div class="n-card">
+<div class="n-section-title">Education</div>
+
+<div class="resume-entry">
+<div class="resume-role">MBA · University Canada West</div>
+<div class="resume-meta">Vancouver, Canada · Expected May 2026</div>
+<div class="n-muted" style="margin-top:4px;">
+Focus on Operations Management, Business Analytics, AI in Business and Leadership.
+</div>
+</div>
+
+<div class="resume-entry">
+<div class="resume-role">Specialization in Operations &amp; Logistics Management</div>
+<div class="resume-meta">Universidad EAFIT · 2021</div>
+</div>
+
+<div class="resume-entry">
+<div class="resume-role">B.Sc. in Industrial (Production) Engineering</div>
+<div class="resume-meta">Universidad EAFIT · 2019</div>
+</div>
+
+<div class="n-sep"></div>
+
+<div class="n-section-title" style="margin-top:2px;">Snapshot Skills</div>
+<div class="skills-list">
+<span class="n-pill">Process improvement</span>
+<span class="n-pill">Operations</span>
+<span class="n-pill">Inventory</span>
+<span class="n-pill">Excel</span>
+<span class="n-pill">Power BI</span>
+<span class="n-pill">Customer service</span>
+</div>
+
+<div class="n-sep"></div>
+
+<div class="n-section-title" style="margin-top:2px;">Certifications</div>
+<div class="n-muted">
+• Advanced Excel Certificate – Universidad EAFIT (2018)
+</div>
+</div>
+
+</div>
+
+</main>

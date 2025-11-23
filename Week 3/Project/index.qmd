@@ -1,0 +1,83 @@
+---
+title: "Home"
+---
+
+<main class="content">
+
+<div class="home-hero n-card">
+<div>
+<img src="assets/photo.jpg" alt="Natasha Vélez" class="home-photo">
+</div>
+
+<div>
+<div class="home-name">Natasha Vélez</div>
+<div class="home-subtitle">
+MBA Candidate · Operations &amp; Business Analytics
+</div>
+<div class="home-tagline">
+Production Engineer with experience in operations, logistics and product development.
+Passionate about turning data into clear, actionable decisions.
+</div>
+<div class="home-badges">
+<span class="n-pill">MBA @ UCW</span>
+<span class="n-pill">Operations &amp; Logistics</span>
+<span class="n-pill">Data-driven decisions</span>
+<span class="n-pill">Data-driven decisions</span>
+<span class="n-pill">Data-driven decisions</span>
+<span class="n-pill">Data-driven decisions</span>
+</div>
+</div>
+</div>
+
+<!-- ===== ABOUT & FACTS ===== -->
+<div class="home-grid-two" style="margin-top:18px;">
+
+<div class="n-card">
+<div class="n-section-title">About Me</div>
+<p class="n-muted" style="margin-bottom:6px;">
+Natasha is a Production Engineer with more than five years of experience in textile
+manufacturing, operations, quality and inventory management. Currently pursuing an MBA at
+University Canada West in Vancouver, she is transitioning into data-informed roles in
+operations, analytics and supply chain.
+</p>
+<p class="n-muted">
+Her strength lies in structuring processes, collaborating with cross-functional teams and
+communicating complex information in a clear and practical way.
+</p>
+</div>
+
+<div class="n-card">
+<div class="n-section-title">Quick Facts</div>
+<div class="n-muted">
+• 5+ years in production &amp; operations<br>
+• Led teams of up to 30 people<br>
+• Experience in client-facing and retail roles<br>
+• Bilingual: Spanish &amp; English
+</div>
+</div>
+
+</div>
+
+<div class="n-card" style="margin-top:18px;">
+<div class="n-section-title">Featured Projects</div>
+<div class="featured-grid">
+
+<div class="n-card" style="box-shadow:none; border-radius:12px;">
+<div class="featured-card-title">Healthy Foods Company Case</div>
+<div class="featured-card-meta">Redesigned operations and change roadmap.</div>
+</div>
+
+<div class="n-card" style="box-shadow:none; border-radius:12px;">
+<div class="featured-card-title">LLM Evaluation for Supply Chain Decisions</div>
+<div class="featured-card-meta">Compared AI models for decision-making.</div>
+</div>
+
+<div class="n-card" style="box-shadow:none; border-radius:12px;">
+<div class="featured-card-title">Leadership Style &amp; Development Plan</div>
+<div class="featured-card-meta">Self-assessment and growth roadmap.</div>
+</div>
+
+</div>
+</div>
+
+</main>
