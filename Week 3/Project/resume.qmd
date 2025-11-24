@@ -10,7 +10,11 @@ title: "Resume"
 
 <div class="resume-two-col">
 
+<!-- ============================================= -->
+<!-- LEFT COLUMN: EXPERIENCE -->
+<!-- ============================================= -->
 <div class="n-card">
+
 <div class="n-section-title">Professional Experience</div>
 
 <div class="resume-entry">
@@ -51,30 +55,47 @@ title: "Resume"
 <li>Evaluated materials, timelines and performance metrics.</li>
 </ul>
 </div>
-</div>
 
+</div><!-- end left column -->
+
+
+
+<!-- ============================================= -->
+<!-- RIGHT COLUMN: EDUCATION + CERTIFICATIONS -->
+<!-- ============================================= -->
 <div class="n-card">
+
 <div class="n-section-title">Education</div>
 
-<div class="resume-entry">
+<div class="resume-entry edu-row">
+<div class="edu-text">
 <div class="resume-role">MBA · University Canada West</div>
 <div class="resume-meta">Vancouver, Canada · Expected May 2026</div>
 </div>
+<img src="assets/UCW.jpg" alt="UCW Logo" class="edu-logo">
+</div>
 
-<div class="resume-entry">
+<div class="resume-entry edu-row">
+<div class="edu-text">
 <div class="resume-role">Specialization in Operations & Logistics Management</div>
 <div class="resume-meta">Universidad EAFIT · 2021</div>
 </div>
+<img src="assets/eafit.png" alt="EAFIT Logo" class="edu-logo">
+</div>
 
-<div class="resume-entry">
+<div class="resume-entry edu-row">
+<div class="edu-text">
 <div class="resume-role">Bachelor of Production Engineering</div>
 <div class="resume-meta">Universidad EAFIT · 2019</div>
+</div>
+<img src="assets/eafit.png" alt="EAFIT Logo" class="edu-logo">
 </div>
 
 <div class="n-sep"></div>
 
 <div class="n-section-title">Certifications</div>
 <div class="n-muted">• Advanced Excel Certificate – Universidad EAFIT (2018)</div>
-</div>
 
-</div>
+</div><!-- end right column -->
+
+</div><!-- end grid -->

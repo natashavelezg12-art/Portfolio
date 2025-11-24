@@ -7,7 +7,7 @@ title: "Home"
 </div>
 
 <div>
-<div class="home-name">Natasha Vélez</div>
+<div class="home-name">Natasha Velez</div>
 <div class="home-subtitle">
 MBA Candidate · Operations &amp; Business Analytics
 </div>
@@ -16,12 +16,14 @@ Production Engineer with experience in operations, logistics and product develop
 Passionate about turning data into clear, actionable decisions.
 </div>
 <div class="home-badges">
-<span class="n-pill">MBA @ UCW</span>
-<span class="n-pill">Operations &amp; Logistics</span>
+<span class="n-pill">MBA Candidate at UCW</span>
+<span class="n-pill">Supply Chain Optimization</span>
+<span class="n-pill">Data Analysis & Reporting</span>
+<span class="n-pill">Operations Management</span>
+<span class="n-pill">Process Improvement (Lean)</span>
 <span class="n-pill">Data-driven decisions</span>
-<span class="n-pill">Data-driven decisions</span>
-<span class="n-pill">Data-driven decisions</span>
-<span class="n-pill">Data-driven decisions</span>
+<span class="n-pill">Logistics Coordination</span>
+<span class="n-pill">Cross-functional Collaboration</span>
 </div>
 </div>
 </div>
@@ -32,14 +34,11 @@ Passionate about turning data into clear, actionable decisions.
 <div class="n-card">
 <div class="n-section-title">About Me</div>
 <p class="n-muted" style="margin-bottom:6px;">
-Natasha is a Production Engineer with more than five years of experience in textile
-manufacturing, operations, quality and inventory management. Currently pursuing an MBA at
-University Canada West in Vancouver, she is transitioning into data-informed roles in
-operations, analytics and supply chain.
+I am a Production Engineer with more than five years of experience in textile
+manufacturing, operations, quality and inventory management. Currently pursuing an MBA at University Canada West in Vancouver, I am transitioning into data-informed roles in operations, analytics and supply chain.
 </p>
 <p class="n-muted">
-Her strength lies in structuring processes, collaborating with cross-functional teams and
-communicating complex information in a clear and practical way.
+My strengths lies in structuring processes, collaborating with cross-functional teams and communicating complex information in a clear and practical way.
 </p>
 </div>
 
@@ -49,6 +48,9 @@ communicating complex information in a clear and practical way.
 • 5+ years in production &amp; operations<br>
 • Led teams of up to 30 people<br>
 • Experience in client-facing and retail roles<br>
+• Supply chain & logistics experience<br>
+• Strong Excel & data skills<br>
+• Background in process improvement<br>
 • Bilingual: Spanish &amp; English
 </div>
 </div>
@@ -60,18 +62,18 @@ communicating complex information in a clear and practical way.
 <div class="featured-grid">
 
 <div class="n-card" style="box-shadow:none; border-radius:12px;">
-<div class="featured-card-title">Healthy Foods Company Case</div>
-<div class="featured-card-meta">Redesigned operations and change roadmap.</div>
+<div class="featured-card-title">Defect Reduction & Quality Optimization</div>
+<div class="featured-card-meta">Operations & Continuous Improvement</div>
 </div>
 
 <div class="n-card" style="box-shadow:none; border-radius:12px;">
-<div class="featured-card-title">LLM Evaluation for Supply Chain Decisions</div>
-<div class="featured-card-meta">Compared AI models for decision-making.</div>
+<div class="featured-card-title">Supplier On-Time Delivery Performance Improvement</div>
+<div class="featured-card-meta">Supply Chain & Vendor Management</div>
 </div>
 
 <div class="n-card" style="box-shadow:none; border-radius:12px;">
-<div class="featured-card-title">Leadership Style &amp; Development Plan</div>
-<div class="featured-card-meta">Self-assessment and growth roadmap.</div>
+<div class="featured-card-title">Logistics Cost Optimization Project</div>
+<div class="featured-card-meta">Supply Chain Cost & Efficiency Analysis</div>
 </div>
 
 </div>

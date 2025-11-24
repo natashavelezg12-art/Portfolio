@@ -23,7 +23,7 @@ Led a continuous-improvement initiative to reduce production defects across the 
 - Improved coordination between quality, production, and logistics teams to reduce rework.
 </p>
 <div>
-<img src="assets/graph1.png" alt="Graph 1" class="home-photo">
+<img src="assets/graph1.png" alt="Graph 1" class="project-image">
 </div>
 <div class="skills-list">
 <span class="n-pill">Lean operations</span>
@@ -45,7 +45,7 @@ Developed and implemented a supplier performance enhancement program. Analyzed h
 - Reduced production delays caused by raw-material shortages.
 </p>
 <div>
-<img src="assets/graph2.png" alt="Graph 2" class="home-photo">
+<img src="assets/graph2.png" alt="Graph 2" class="project-image">
 </div>
 <div class="skills-list">
 <span class="n-pill">Vendor management</span>
@@ -67,7 +67,7 @@ Built a logistics cost model to analyze freight spending, route efficiency, and 
 - Improved cost visibility for strategic decision-making.
 </p>
 <div>
-<img src="assets/graph3.png" alt="Graph 3" class="home-photo">
+<img src="assets/graph3.png" alt="Graph 3" class="project-image">
 </div>
 <div class="skills-list">
 <span class="n-pill">Cost optimization</span>
