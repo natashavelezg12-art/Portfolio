@@ -11,59 +11,68 @@ Selection of academic and professional projects related to operations, analytics
 <div class="project-grid">
 
 <div class="n-card" style="border-radius:14px;">
-<div class="project-tag">Digital Transformation</div>
+<div class="project-tag">Defect Reduction & Quality Optimization</div>
 <div class="featured-card-title" style="margin-top:4px;">
-Healthy Foods Company Transformation Case
+Operations & Continuous Improvement
 </div>
 <p class="n-muted" style="margin-top:4px;">
-Designed a change management approach and operating model for a healthy food company moving
-towards a digital-first, data-driven strategy.
+Led a continuous-improvement initiative to reduce production defects across the socks division. Used Excel-based analytics to identify defect patterns, streamline inspection points, and implement standardized quality checks across shifts.
+
+- Achieved a 22% reduction in defect rate within three months.
+- Introduced visual controls and quick-check audits per shift.
+- Improved coordination between quality, production, and logistics teams to reduce rework.
 </p>
 <div>
 <img src="assets/graph1.png" alt="Graph 1" class="home-photo">
 </div>
 <div class="skills-list">
-<span class="n-pill">Change management</span>
-<span class="n-pill">Process mapping</span>
-<span class="n-pill">Stakeholder analysis</span>
+<span class="n-pill">Lean operations</span>
+<span class="n-pill">Quality control</span>
+<span class="n-pill">Root-cause analysis</span>
 </div>
 </div>
 
 <div class="n-card" style="border-radius:14px;">
-<div class="project-tag">AI in Business</div>
+<div class="project-tag">Supplier On-Time Delivery Performance Improvement</div>
 <div class="featured-card-title" style="margin-top:4px;">
-LLM Evaluation for Supply Chain Decisions
+Supply Chain & Vendor Management
 </div>
 <p class="n-muted" style="margin-top:4px;">
-Compared four large language models and human answers for supply-chain related questions,
-assessing accuracy, reasoning and ethical considerations.
+Developed and implemented a supplier performance enhancement program. Analyzed historical delivery data, built on-time performance dashboards, and renegotiated delivery schedules with key vendors.
+
+- Improved supplier on-time delivery by +12 percentage points.
+- Implemented a performance-tracking dashboard for the supply chain team.
+- Reduced production delays caused by raw-material shortages.
 </p>
 <div>
 <img src="assets/graph2.png" alt="Graph 2" class="home-photo">
 </div>
 <div class="skills-list">
-<span class="n-pill">AI &amp; LLMs</span>
-<span class="n-pill">Survey design</span>
-<span class="n-pill">Data analysis</span>
+<span class="n-pill">Vendor management</span>
+<span class="n-pill">KPI dashboards</span>
+<span class="n-pill">Logistics coordination</span>
 </div>
 </div>
 
 <div class="n-card" style="border-radius:14px;">
-<div class="project-tag">Operations &amp; Forecasting</div>
+<div class="project-tag">Logistics Cost Optimization Project</div>
 <div class="featured-card-title" style="margin-top:4px;">
-Sales Forecasting for Retail Business
+Supply Chain Cost & Efficiency Analysis
 </div>
 <p class="n-muted" style="margin-top:4px;">
-Built Excel-based forecasting models for a fictional apparel retailer to support inventory and
-staffing decisions.
+Built a logistics cost model to analyze freight spending, route efficiency, and shipment consolidation opportunities. Used Excel simulations to compare current vs. optimized logistics scenarios.
+
+- Achieved an estimated CAD $3,600 monthly cost reduction.
+- Optimized transportation routes and consolidated light shipments.
+- Improved cost visibility for strategic decision-making.
 </p>
 <div>
 <img src="assets/graph3.png" alt="Graph 3" class="home-photo">
 </div>
 <div class="skills-list">
-<span class="n-pill">Excel</span>
-<span class="n-pill">Time series</span>
-<span class="n-pill">Scenario analysis</span>
+<span class="n-pill">Cost optimization</span>
+<span class="n-pill">Supply chain modeling</span>
+<span class="n-pill">Excel modeling</span>
 </div>
 </div>
 

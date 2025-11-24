@@ -9,7 +9,7 @@
   font-size: 50px;
   font-weight: bolder;
   max-width: 1120px;      /* mismo ancho que tu contenido */
-  margin: 48px auto 24px; /* centrado como el contenido, misma separación arriba/abajo */
+  margin: 0px auto 24px; /* centrado como el contenido, misma separación arriba/abajo */
   padding: 0;             
   text-align: left;       /* evita centrados raros en algunas páginas */
 }
@@ -226,6 +226,7 @@
 }
 
 
+
 /* =========================================================
    CONTACT FORM
    ========================================================= */
@@ -282,4 +283,11 @@
   .home-photo {
     margin: auto;
   }
+}
+
+.column-page .resume-two-col {
+  display: grid !important;
+  grid-template-columns: 1.5fr 1fr !important;
+  gap: 22px !important;
+  align-items: stretch !important;
 }
