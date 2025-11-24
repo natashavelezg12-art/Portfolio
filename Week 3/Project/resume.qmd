@@ -72,7 +72,10 @@ title: "Resume"
 <div class="resume-role">MBA · University Canada West</div>
 <div class="resume-meta">Vancouver, Canada · Expected May 2026</div>
 </div>
+<div class="edu-logo-wrap">
 <img src="assets/UCW.jpg" alt="UCW Logo" class="edu-logo">
+</div>
+
 </div>
 
 <div class="resume-entry edu-row">
@@ -80,7 +83,9 @@ title: "Resume"
 <div class="resume-role">Specialization in Operations & Logistics Management</div>
 <div class="resume-meta">Universidad EAFIT · 2021</div>
 </div>
+<div class="edu-logo-wrap">
 <img src="assets/eafit.png" alt="EAFIT Logo" class="edu-logo">
+</div>
 </div>
 
 <div class="resume-entry edu-row">
@@ -88,7 +93,9 @@ title: "Resume"
 <div class="resume-role">Bachelor of Production Engineering</div>
 <div class="resume-meta">Universidad EAFIT · 2019</div>
 </div>
+<div class="edu-logo-wrap">
 <img src="assets/eafit.png" alt="EAFIT Logo" class="edu-logo">
+</div>
 </div>
 
 <div class="n-sep"></div>
