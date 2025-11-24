@@ -285,9 +285,15 @@
   }
 }
 
-.column-page .resume-two-col {
+#quarto-document-content.column-page {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#quarto-document-content.column-page .resume-two-col {
   display: grid !important;
   grid-template-columns: 1.5fr 1fr !important;
   gap: 22px !important;
-  align-items: stretch !important;
 }

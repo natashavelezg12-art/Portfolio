@@ -2,71 +2,62 @@
 title: "Resume"
 ---
 
-<a href="assets/resume.pdf" download="Natasha_Velez_Resume.pdf" class="download-btn">
-📄 Download Resume (PDF)
-</a>
+<a href="assets/resume.pdf" download="Natasha_Velez_Resume.pdf" class="download-btn">📄 Download Resume (PDF)</a>
 
 <div class="resume-header">
-<p class="n-muted" style="margin-top:4px;">
-Summary of professional experience, education and key achievements.
-</p>
+<p class="n-muted" style="margin-top:4px;">Summary of professional experience, education and key achievements.</p>
 </div>
 
 <div class="resume-two-col">
 
-<!-- ===================== LEFT COLUMN ===================== -->
 <div class="n-card">
-
 <div class="n-section-title">Professional Experience</div>
 
 <div class="resume-entry">
 <div class="resume-role">Quality Manager – Socks Division · Crystal S.A.S</div>
 <div class="resume-meta">Medellin, Colombia · Jun 2023 – Jan 2024</div>
-<ul class="n-muted" style="margin-top:4px;">
-<li>Supervised end-to-end quality operations for a team of 30+ production staff, ensuring adherence to product standards and delivery deadlines.</li>
-<li>Implemented data-driven improvements that reduced production defects by 5% and increased operational efficiency.</li>
-<li>Collaborated with production and logistics teams to align output with client timelines and shipment priorities.</li>
+<ul class="n-muted">
+<li>Supervised end-to-end quality operations for a team of 30+ production staff.</li>
+<li>Reduced defects by 5% using data-driven improvements.</li>
+<li>Aligned production and logistics to meet shipment priorities.</li>
 </ul>
 </div>
 
 <div class="resume-entry">
 <div class="resume-role">Account Manager – Socks Product Development · Crystal S.A.S</div>
 <div class="resume-meta">Medellin, Colombia · May 2022 – Jun 2023</div>
-<ul class="n-muted" style="margin-top:4px;">
-<li>Main liaison between clients, production, and logistics, managing orders from design to delivery.</li>
-<li>Negotiated schedules achieving 95% on-time order completion.</li>
-<li>Strengthened supplier and client relationships through proactive communication.</li>
+<ul class="n-muted">
+<li>Main liaison between clients and production.</li>
+<li>Achieved 95% on-time order completion.</li>
+<li>Strengthened supplier and client relationships.</li>
 </ul>
 </div>
 
 <div class="resume-entry">
 <div class="resume-role">Product Development Specialist – Apparel & Seamless · Crystal S.A.S</div>
 <div class="resume-meta">Medellin, Colombia · Jul 2019 – May 2022</div>
-<ul class="n-muted" style="margin-top:4px;">
-<li>Coordinated raw-material sourcing and prototype logistics, improving lead times by 8%.</li>
-<li>Created Excel-based tools to monitor material usage and development timelines.</li>
-<li>Improved workflow transparency across procurement, production, and distribution.</li>
+<ul class="n-muted">
+<li>Coordinated sourcing and prototype logistics (8% faster lead times).</li>
+<li>Created Excel tools for material tracking.</li>
+<li>Improved workflow transparency.</li>
 </ul>
 </div>
 
 <div class="resume-entry">
 <div class="resume-role">Product Development Intern – Apparel · Crystal S.A.S</div>
 <div class="resume-meta">Medellin, Colombia · Jan 2019 – Jul 2019</div>
-<ul class="n-muted" style="margin-top:4px;">
-<li>Assisted coordination between design, production, and logistics teams.</li>
-<li>Supported evaluation of materials, timelines, and performance metrics.</li>
+<ul class="n-muted">
+<li>Supported coordination between design, production and logistics teams.</li>
+<li>Evaluated materials, timelines and performance metrics.</li>
 </ul>
 </div>
+</div>
 
-</div> <!-- END LEFT COLUMN -->
-
-<!-- ===================== RIGHT COLUMN ===================== -->
 <div class="n-card">
-
 <div class="n-section-title">Education</div>
 
 <div class="resume-entry">
-<div class="resume-role">Master of Business Administration (MBA) · University Canada West</div>
+<div class="resume-role">MBA · University Canada West</div>
 <div class="resume-meta">Vancouver, Canada · Expected May 2026</div>
 </div>
 
@@ -82,11 +73,8 @@ Summary of professional experience, education and key achievements.
 
 <div class="n-sep"></div>
 
-<div class="n-section-title" style="margin-top:2px;">Certifications</div>
-<div class="n-muted">
-• Advanced Excel Certificate – Universidad EAFIT (2018)
+<div class="n-section-title">Certifications</div>
+<div class="n-muted">• Advanced Excel Certificate – Universidad EAFIT (2018)</div>
 </div>
 
-</div> <!-- END RIGHT COLUMN -->
-
-</div> <!-- END GRID -->
+</div>
